@@ -3,131 +3,164 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Folajomi Shotunde's portfolio page.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Folajomi Shotunde</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <script src="https://kit.fontawesome.com/1f9d9eeffa.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <img class="navbar-brand" src="./img/JorMee.JPG"/>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#welcome"><i class="fas fa-user"></i> About <span class="sr-only">(current)</span></a>
+    <header>
+      <div class="menu-icons">
+        <i class="material-icons menu">menu</i>
+        <i class="material-icons close">close</i>
+      </div>
+      <div class="sidebar">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link current">
+              <i class="material-icons">home_work</i>Home
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-clipboard"></i> Articles</a>
+            <a href="#about" class="nav-link">
+                <i class="material-icons">account_circle</i>About
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a>
+            <a href="https://jormee.hashnode.dev/" class="nav-link">
+                <i class="material-icons">timeline</i>Blog
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact"><i class="fas fa-paper-plane"></i> Contact</a>
+            <a href="portfolio.html" class="nav-link">
+                <i class="material-icons">work</i>Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+                <i class="material-icons">mail</i>Contact
+            </a>
           </li>
         </ul>
       </div>
-      
-    </nav>
-    
+    </header>
 
     <main>
-      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="5000" id="welcome">
-            <div class="carousel-text">
-              <h2>Hi there!</h2>
-              <p>I'm Folajomi, welcome to my little multi-professional world.</p>
-              <p>Project management graduate with much love for web development and a fling for crypto-tech and cryptocurrency trading</p>
-              <p>Call me a serial hobbyist, But I prefer JorMee.</p>
+      <div class="zoom-content">
+        <section>
+          <div id="home">
+            <div class="welcome">
+              <div class="text-box">
+                <h1>Hi</h1>
+                <h2>I'm Folajomi</h2>
+                <ul>
+                  <li><i class="fas fa-code"></i>Fullstack Web Developer</li>
+                  <li><i class="fas fa-tasks"></i>Project Manager</li>
+                  <li><i class="fab fa-bitcoin"></i>Crypto Enthusiast/Crypto Trader</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="carousel-item" data-interval="5000" id="web-dev">
-            <div class="carousel-text">
-              <h2>Web Developer</h2>
-              <p>MEAN stack developer. </p>
-              <p>Working on gaining knowledge of Cybersecurity, JAMstack development, DevOps Engineering, smart contracts and cryptocurrencies, Artificial Intelligence or Machine Learning, Data Analysis and VR/AR.</p>
+          <div id="about">
+            <h1>About</h1>
+            <div class="info-card" id="summary">
+              <h2 class="title"><i class="fas fa-info"></i>Summary</h2>
+              <hr>
+              <div class="story">
+                <p>A project management graduate with a zeal for software development and a eye for details and logic.<br>I am very focused and dedicated with a track record of success in all endeavours.</p>
+                <p>I am also a very efficient team player with great leadership and time management skills.</p>
+              </div>
+            </div>
+            <div class="info-card" id="education">
+              <h2 class="title"><i class="fas fa-university"></i>Education</h2>
+              <hr>
+              <div class="story">
+                <div class="sub-title">
+                  <h3>Federal University of Technology, Akure</h3>
+                  <h3>2012-2018</h3>
+                </div>
+                <h4 class="cos">Bachelor of Technology(BTech.) in Project Management Technology</h4>
+                <p>Graduated with a 4.09/5.00 CGPA from the foremost university of technology in Nigeria having successfully completed all requirements for the award. Specific highlights of coursework include:</p>
+                <ul>
+                  <li>Human Resources Management</li>
+                  <li>Database Management Systems</li>
+                  <li>Financial Accounting, Cost Accounting and Financial Management</li>
+                  <li>Operations Research and Management</li>
+                  <li>Quality Assurance and Quality Control</li>
+                  <li>Project Finance</li>
+                  <li>Commercial and Labour Legislation</li>
+                </ul>
+              </div>
+            </div>
+            <div class="info-card" id="experience">
+              <h2 class="title"><i class="fas fa-building"></i>Work Experience</h2>
+              <hr>
+              <ul class="story">
+                <li class="experience">
+                  <div class="sub-title">
+                    <h3>Administrative Assistant at Adekunle Ajasin University, Akungba-Akoko</h3>
+                    <h3>2018-2019</h3>
+                  </div>
+                  <p>Responsible for tracking daily and weekly materials consumption data for the university plant and reporting directly to the Acting Director of the department of works and services. And devised a new method of presenting consumption data.</p>
+                </li>
+                <li class="experience">
+                  <div class="sub-title">
+                    <h3>Project Managemnt Intern at Julius Berger Nigeria Plc.</h3>
+                    <h3>April-September, 2016</h3>
+                  </div>
+                  <ul class="intern">
+                    <li>
+                      Understudied the Project Manager of a large construction project and gained practical experience on how to work with diverse and muliit-cultural individuals that makes up a project team
+                    </li>
+                    <li>
+                      Worked with the project administrative officer in carrying out general administrative duties.
+                    </li>
+                    <li>
+                      Worked with the document controller in preparing and handling project documents and communications, such as store requisitions, LPOs and digitisation of documents and storing them on the project servers.
+                    </li>
+                    <li>
+                      Also worked with the store officer in taking and recording inventory of materials in the project store.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="info-card" id="interests">
+              <h2 class="title"><i class="fas fa-brain"></i>Interests</h2>
+              <hr>
+              <ul class="story">
+                <li>Web/Software Development</li>
+                <li>Learning</li>
+                <li>Read</li>
+                <li>Personal Development</li>
+                <li>Swimming</li>
+              </ul>
             </div>
           </div>
-          <div class="carousel-item" data-interval="5000" id="pm">
-            <div class="carousel-text">
-              <h2>Project Manager</h2>
-              <p>University degree in Project Management Technology and experience working with, and leading project teams towards achieving project goals, developing project management plans</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-interval="5000" id="crypto">
-            <div class="carousel-text">
-              <h2>Crytpo Enthusiast</h2>
-              <p>I am a big fan of the adoption of blockchain technology and cryptocurrencies. Mostly because of the security it promises and the control it avails you over your assets.</p>
-              <p>I am also a rookie crypto trader</p>
-            </div>
-          </div>
-          
-        </div>
+        </section>
       </div>
 
-      <section id="portfolio">
-        <h2 class="section-header"><i class="fas fa-briefcase"></i>Portfolio</h2>
-        <div id="projects">
-          <div class="projects bg-dark">
-            <a href="https://festive-wescoff-1f4b85.netlify.com/" target="_blank">
-              <div class="project-description">
-                <h3 class="project-title">Cards</h3>
-                <p>Cards is a social business directory that avails MSMEs the opportunity to have an online presence and carry out their daily businesses while connecting with other businesses and customers.</p>
-                <p>Won't you love for your business to be very accessible to customers and connect to suppliers easily?</p>
-              </div>
-              <img src="./img/cards.png" alt="cards" class="project-img">
-            </a>
-          </div>
-          <div class="projects bg-dark">
-            <a href="#" target="_blank">
-              <div class="project-description">
-                <h3 class="project-title">Google Clone</h3>
-                <p>This is me playing around with HTML and pure CSS.</p>
-              </div>
-              <img src="./img/google-clone.png" alt="cards" class="project-img">
-            </a>
-          </div>
-          <div class="projects bg-dark">
-            <a href="https://festive-wescoff-1f4b85.netlify.com/" target="_blank">
-              <div class="project-description">
-                <h3 class="project-title">Cards</h3>
-                <p>A mock-up of a technical documents for css adapted from MDN.</p>
-              </div>
-              <img src="./img/css-technical-docs.png" alt="cards" class="project-img">
-            </a>
-          </div>
-          <a href="https://github.com/jormee" class="btn btn-dark"> View All</a>
-        </div>
-      </section>
+      <footer id="contact">
 
-      <section id="contact" class="bg-dark">
-        <h2 class="section-header">Talk to me!</h2>
-        <p>Which of my different shades do you like? Which goal(s) would you like to achieve with me/help me achieve?</p>
-        <p>Talk to me on any of these links. I respond with lightening speed <i class="fas fa-bolt"></i></p>
-
-        <div id='social'>
-          <a href="https://github.com/jormee" id='profile-link' class='socials' target='_blank'><i class="fab fa-github"></i></a>
-          <a href="https://twitter.com/Folajor_mee" id='twitter' class='socials' target='_blank'><i class="fab fa-twitter"></i></a>
-          <a href="https://codepen.io/JorMee" id='codepen' class='socials' target='_blank'><i class="fab fa-facebook-messenger"></i></a>
-          <a href="https://www.linkedin.com/in/folajomi-shotunde/" id='linkedin' class='socials' target='_blank'><i class="fab fa-linkedin"></i></a>
+        <div class="socials">
+          <a href="https://twitter.com/Folajor_mee" target="_blank" class="social-icons"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:folajor.mee@gmail.com?subject=Hello" target="_blank" class="social-icons"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/jormee" target="_blank" class="social-icons"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/folajomi-shotunde" target="_blank" class="social-icons"><i class="fab fa-linkedin"></i></a>
+          <a href="https://https://stackoverflow.com/users/10300000/jormee" target="_blank" class="social-icons"><i class="fab fa-stack-overflow"></i></a>
+          <a href="https://wa.me/2348142352165" target="_blank" class="social-icons"><i class="fab fa-whatsapp"></i></a>
         </div>
         
-      </section>
+      </footer>
     </main>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
