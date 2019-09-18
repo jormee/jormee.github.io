@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  background-color: rgba(138, 43, 226,.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  position: relative;
+  top: 3rem;
+  left: 2rem;
+}
+
+.home a{
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(138, 43, 226,.7);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.home i {
+  margin-right: 1rem;;
+}
+
+.intro {
+  padding: 2.7rem;
+  text-align: center;
+}
+
+.intro h1 {
+  letter-spacing: .3rem;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: blueviolet;
+  font-family: 'Gayathri', sans-serif;
+}
+
+.intro p {
+  line-height: 2rem;
+  letter-spacing: .1rem;
+  font-size: 1.6rem;
+}
+
+.works {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  width: 80%;
+  padding: 2rem;
+  margin: 2rem auto;
+  border: thin solid gray;
+  border-radius: 1rem;
+  box-shadow: .5rem .5rem 1rem rgba(0,0,0,.4);
+  background-color: rgba(138, 43, 226,.1);
+}
+
+.project-card {
+  min-height: 20rem;
+  border: thin solid gray;
+  border-radius: .5rem;
+  padding: 1.2rem;
+  box-shadow: .5rem .5rem 1rem rgba(0,0,0,.4);
+  cursor: pointer;
+  transition: transform .6s;
+  background-color: white;
+  padding-bottom: 0;
+}
+
+
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-family: 'Gayathri', sans-serif;
+  color: blueviolet;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: .2rem;
+}
+
+.project-info {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.tools {
+  color: rgba(0, 0, 0, .5);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.links {
+  margin: 2rem;
+  text-align: center;
+}
+
+.links a {
+  color: blueviolet;
+  padding: 1rem;
+  font-size: 2rem;
+  transition: background-color .6s;
+  border-radius: 100%;
+}
+
+.links a:hover {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.all a {
+  font-size: 1.7rem;
+  background-color: rgba(138, 43, 226,.7);
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.all a i {
+  margin-right: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(138, 43, 226,.7);
+}
+
+.social-icons {
+  font-size: 3rem;
+  padding: 1.3rem;
+  border-radius: 50%;
+  margin: .5rem;
+  color: rgb(255,255,255);
+  transition: color .6s, background-color .6s;
+}
+
+.social-icons:hover {
+  color: rgb(255, 255,255);
+  background-color: rgba(255,255,255,.4);
+}
